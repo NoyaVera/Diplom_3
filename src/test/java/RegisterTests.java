@@ -19,6 +19,7 @@ public class RegisterTests {
     public void registerTest() {
         RegisterPage registerPage = new RegisterPage(driver);
         AuthorizationPage authorizationPage = new AuthorizationPage(driver);
+        registerPage.openRegisterPage();
         registerPage.inputName("John");
         registerPage.inputEmail("930384@gmail.com");
         registerPage.inputPassword("098765");

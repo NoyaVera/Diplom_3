@@ -44,6 +44,7 @@ public class RegisterPage {
     }
 
     public void register(String name, String email, String password) {
+        openRegisterPage();
         inputName(name);
         inputEmail(email);
         inputPassword(password);
